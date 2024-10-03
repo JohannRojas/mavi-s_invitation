@@ -38,20 +38,19 @@ const uranianBlue = 'hsla(208, 97%, 87%, 1)'
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100dvh;
+    min-height: 100svh;
     background-image: url('/background.png'),
       linear-gradient(to bottom, var(--thistle), var(--fairyTale));
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .card {
     position: relative;
-    width: 300px;
-    /* height: 400px; */
-    height: 50dvh;
+    width: 14rem;
+    height: 22rem;
     background-color: white;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -89,7 +88,7 @@ const uranianBlue = 'hsla(208, 97%, 87%, 1)'
     align-items: flex-end; /* Vertically center */
     justify-content: center; /* Horizontally center */
     color: var(--uranianBlue);
-    font-size: 24px;
+    font-size: 1rem;
     font-weight: bold;
     backface-visibility: hidden;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);

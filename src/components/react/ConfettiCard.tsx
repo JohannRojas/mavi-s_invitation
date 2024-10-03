@@ -58,7 +58,7 @@ const ConfettiCard = () => {
     <>
       <div className="card" ref={ cardRef }>
         <div className="img-box">
-          <img src="/portada.jpg" alt="" />
+          <img src="/portada_1.jpg" alt="" />
           <img src="/ante-portada.jpg" alt="" />
         </div>
         <div className="details">
@@ -70,23 +70,23 @@ const ConfettiCard = () => {
             <div className="icons flex flex-col pt-4">
               <div className="flex gap-4 items-center" onClick={ () => window.open('https://calendar.app.google/zSRmbAAY5CHLfySk8', '_blank') }>
                 <Calendar />
-                <p className="text-xs text-center text-pretty">Agregar a tu calendario</p>
+                <p className="text-xs text-pretty">Agregar a tu calendario</p>
               </div>
               <div className="flex gap-4 items-center">
                 <Clock />
-                <p className="text-xs text-center text-pretty">15:00 a 17:00</p>
+                <p className="text-xs text-pretty">15:00</p>
               </div>
               <div className="flex gap-4 items-center" onClick={ () => window.open('https://wa.me/573022056569', '_blank') }>
                 <Heart />
-                <p className="text-xs text-center text-pretty">Enviame un mensajito ❤️🎂</p>
+                <p className="text-xs text-pretty">Enviame un mensajito ❤️🎂</p>
               </div>
               <div className="flex gap-4 items-center" onClick={ () => window.open('https://maps.app.goo.gl/38i47fgd4axu1LGbA', '_blank') }>
                 <Place />
-                <p className="text-xs text-center text-pretty">Lugar</p>
+                <p className="text-xs text-pretty">Lugar</p>
               </div>
             </div>
             <div className="self-end mt-10">
-              <p className='text-xs '>🎂🥳❤️ Te esperamos...🎊🎁🎉🎈</p>
+              <p className='text-xs '>🎂🥳❤️ Trae vinito...🎊🎁🎉🎈</p>
             </div>
           </div>
         </div>
